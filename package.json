@@ -11,9 +11,11 @@
     "@babel/core": "latest",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-modules-commonjs": "latest",
-    "http-vue-loader": "^1.4.0",
+    "http-vue-loader": "git+https://github.com/anhoev/http-vue-loader.git",
+    "lodash": "latest",
+    "sass.js": "^0.10.13",
     "vue": "^2.5.17",
-    "lodash": "latest"
+    "vue-codemirror": "^4.0.6"
   },
   "devDependencies": {
     "@babel/plugin-syntax-import-meta": "^7.2.0",
@@ -24,6 +26,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {

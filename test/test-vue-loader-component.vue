@@ -1,5 +1,9 @@
 <template>
-    <h3 class="a">Loaded component</h3>
+    <h3 class="a">
+
+        <div class="test">hello</div>
+        Loaded component
+    </h3>
 </template>
 
 <script lang="js">
@@ -17,9 +21,11 @@
     .a {
         color: #3e3e3e;
     }
+
     .b {
         color: #000
     }
+
     .c {
         color: #000
     }
@@ -29,9 +35,11 @@
     .d {
         color: #3e3e3e;
     }
+
     .e {
         color: #000
     }
+
     .f {
         color: #000
     }
